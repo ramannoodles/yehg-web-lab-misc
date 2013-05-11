@@ -1,0 +1,15 @@
+phpinfo.php
+test.php
+test1.php
+test2.php
+_index.php
+__index.php
+index.php~
+index.php-bak
+index-bak
+info.php
+phpsecinfo
+php.ini
+php
+phpsecinfo
+phpinfo

