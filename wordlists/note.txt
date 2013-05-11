@@ -1,0 +1,7 @@
+<option value="vulns/big.txt">Big</option>
+<option value="vulns/catala.txt">Catala</option>
+<option value="vulns/common.txt">Common</option>
+<option value="vulns/euskera.txt">Euskera</option>
+<option value="vulns/extensions_common.txt">Extensions_common</option>
+<option value="vulns/index.php">Index.php</option><option value="vulns/medium.txt">Medium</option><option value="vulns/mutations_common.txt">Mutations_common</option><option value="vulns/passlist.txt">Passlist</option><option value="vulns/spanish.txt">Spanish</option><option value="vulns/subdomains.txt">Subdomains</option><option value="vulns/userlist.txt">Userlist</option><option value="vulns/weak_passwords_module_passlist.txt">Weak_passwords_module_passlist</option><option value="vulns/weak_passwords_module_userlist.txt">Weak_passwords_module_userlist</option><option value="vulns/wordlists_test.htm">Wordlists_test.htm</option>
+<option value="vulns/common_pass.txt">Common_pass</option><option value="vulns/names.txt">Names</option>

