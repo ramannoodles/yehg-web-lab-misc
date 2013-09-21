@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- 
 Web Recon Database maintained by YGN Ethical Hacker Group, http://yehg.net/
-v2013-05-10
+v2013-09-02	
 
 Submit your contribution to tool at yehg.net
 
@@ -118,7 +118,7 @@ ontextfield (string) - text field input ID or name of site page. Once the page i
 		<link name="View-State" value="http://myeduware.com/Controls/ViewstateViewer/ViewstateView.aspx?viewstate=%s"  compatible="yes" ontextfield=""  />	
 		<link name="Web-Sniffer" value="http://web-sniffer.net/?url=%s&amp;uak=3"  compatible="yes" ontextfield=""  />	
 		<link name="Shodan" value="http://www.shodanhq.com/?q=%s"  compatible="yes" ontextfield=""  />	
-		<link name="SSL-Labs" value="https://www.ssllabs.com/ssldb/analyze.html?d=%s"  compatible="yes" ontextfield=""  />			
+		<link name="SSL-Labs" value="https://www.ssllabs.com/ssldb/analyze.html?d=%s&hideResults=on"  compatible="yes" ontextfield=""  />			
 		<link name="ASP.Net Baseline Scanner" value="https://asafaweb.com/Scan?Url=%s"  compatible="yes" ontextfield=""  />
 		<link name="ChangeDetection" value="http://search.freefind.com/find.html?id=19176448&amp;pageid=r&amp;mode=ALL&amp;n=0&amp;_charset_=UTF-8&amp;bcd=%C3%B7&amp;query=%s"  compatible="yes" ontextfield=""  />	
 		<link name="CONNECT /" value="http://hexillion.com/asp/samples/AspTcpQuery.asp?service=2&amp;server=%s&amp;query=CONNECT+http://www.google.com/+HTTP%2F1.0&amp;B1=Go"  compatible="yes" ontextfield=""  />
@@ -228,7 +228,8 @@ ontextfield (string) - text field input ID or name of site page. Once the page i
 		<link name="XCCDF" value="https://www.google.com/search?q=site:scap.nist.gov/specifications/xccdf/ (intitle:%s OR intext:%s)"  compatible="yes" ontextfield=""  />
 		<link name="SCAP" value="https://www.google.com/search?q=site:scap.mitre.org (intitle:%s OR intext:%s)"  compatible="yes" ontextfield=""  />		
 		<link name="CEE" value="https://www.google.com/search?q=site:cee.mitre.org (intitle:%s OR intext:%s)"  compatible="yes" ontextfield=""  />
-	   
+		<link name="CERT_SecureCoding" value="https://www.securecoding.cert.org/confluence/dosearchsite.action?queryString=%s"  compatible="yes" ontextfield=""  />
+	    
 	</category>		
 	
 	<!-- Meta Data -->
