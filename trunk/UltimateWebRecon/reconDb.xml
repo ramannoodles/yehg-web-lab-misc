@@ -118,7 +118,7 @@ ontextfield (string) - text field input ID or name of site page. Once the page i
 		<link name="View-State" value="http://myeduware.com/Controls/ViewstateViewer/ViewstateView.aspx?viewstate=%s"  compatible="yes" ontextfield=""  />	
 		<link name="Web-Sniffer" value="http://web-sniffer.net/?url=%s&amp;uak=3"  compatible="yes" ontextfield=""  />	
 		<link name="Shodan" value="http://www.shodanhq.com/?q=%s"  compatible="yes" ontextfield=""  />	
-		<link name="SSL-Labs" value="https://www.ssllabs.com/ssldb/analyze.html?d=%s&hideResults=on"  compatible="yes" ontextfield=""  />			
+		<link name="SSL-Labs" value="https://www.ssllabs.com/ssldb/analyze.html?d=%s&amp;hideResults=on"  compatible="yes" ontextfield=""  />			
 		<link name="ASP.Net Baseline Scanner" value="https://asafaweb.com/Scan?Url=%s"  compatible="yes" ontextfield=""  />
 		<link name="ChangeDetection" value="http://search.freefind.com/find.html?id=19176448&amp;pageid=r&amp;mode=ALL&amp;n=0&amp;_charset_=UTF-8&amp;bcd=%C3%B7&amp;query=%s"  compatible="yes" ontextfield=""  />	
 		<link name="CONNECT /" value="http://hexillion.com/asp/samples/AspTcpQuery.asp?service=2&amp;server=%s&amp;query=CONNECT+http://www.google.com/+HTTP%2F1.0&amp;B1=Go"  compatible="yes" ontextfield=""  />
